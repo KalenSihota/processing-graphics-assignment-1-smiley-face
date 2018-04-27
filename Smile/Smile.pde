@@ -31,6 +31,7 @@ void draw() {
   text("Green rectangle", 300, 100);
   fill(0,0,0225);
   text("Blue rectangle", 500, 100);
+  ellipse(345, 350, 250, 250);
   
   // Do not forget comments!
 }
