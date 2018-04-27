@@ -25,16 +25,18 @@ void draw() {
   fill(0, 0, 225);
   rect(500, 50, 75, 35);
   fill(225,0,0);
-  text("Red rectangle", 100, 100);
+  text("Red rectangle \n with \n Blue border", 100, 100);
   fill(0,225,0);
-  text("Green rectangle", 300, 100);
+  text("Green rectangle \n with \n Red border", 300, 100);
   fill(0,0,0225);
-  text("Blue rectangle", 500, 100);
+  text("Blue rectangle \n with \n Green border", 500, 105);
   ellipse(345, 350, 250, 250);
   stroke(43,67,84);
   strokeWeight(3);
   fill(225, 0, 0);
   ellipse(285, 285, 25, 50);
   ellipse(405, 285, 25, 50);
-  
+  stroke(247, 148, 9);
+  strokeWeight(2);
+  line(285, 385, 405, 385);
 }
