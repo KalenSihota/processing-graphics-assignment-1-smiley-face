@@ -13,15 +13,18 @@ void setup() {
 
 void draw() {
   // Your program will be here...
-  text("word", 10, 30);
-  text("word", 10, 30);
-  text("Blue rectangle", 500, 100);
   fill(225, 0, 0);
   rect(100, 50, 75, 35);
   fill(0, 225, 0);
   rect(300, 50, 75, 35);
   fill(0, 0, 225);
   rect(500, 50, 75, 35);
+  fill(225,0,0);
+  text("Red rectangle", 100, 100);
+  fill(0,225,0);
+  text("Green rectangle", 300, 100);
+  fill(0,0,0225);
+  text("Blue rectangle", 500, 100);
   
   // Do not forget comments!
 }
