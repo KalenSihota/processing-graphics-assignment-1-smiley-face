@@ -7,12 +7,11 @@
  */
 
 void setup() {
-  size(700, 500); // Size of canvas
-  background(25, 72, 53); // Background color as rgb values
+  size(700, 500); 
+  background(25, 72, 53); 
 }
-
 void draw() {
-  // Your program will be here...
+  
   stroke(0, 0, 225);
   strokeWeight(1);
   fill(225, 0, 0);
@@ -32,6 +31,10 @@ void draw() {
   fill(0,0,0225);
   text("Blue rectangle", 500, 100);
   ellipse(345, 350, 250, 250);
+  stroke(43,67,84);
+  strokeWeight(3);
+  fill(225, 0, 0);
+  ellipse(285, 285, 25, 50);
+  ellipse(405, 285, 25, 50);
   
-  // Do not forget comments!
 }
